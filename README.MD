@@ -85,7 +85,10 @@ After Click: Welcome to JavaScript
 
 Console Output: 50 
 
+
+
         => 2) Variable :-
+
 
 📘 JavaScript Variables – README
 📌 Project Title
