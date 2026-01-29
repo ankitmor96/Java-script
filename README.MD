@@ -85,6 +85,136 @@ After Click: Welcome to JavaScript
 
 Console Output: 50 
 
+=> 2) Variable :-
+
+📘 JavaScript Variables – README
+📌 Project Title
+
+JavaScript Variables: var, let, const
+
+📖 Description
+
+This project explains the three ways to declare variables in JavaScript:
+
+var
+
+let
+
+const
+
+It demonstrates scope, re-declaration, updating, and output using simple examples executed with Node.js.
+
+🛠️ Technologies Used
+
+JavaScript (ES6)
+
+Node.js
+
+VS Code
+
+📂 Project Structure
+📁 JavaScript-Variables
+│
+├── var.js
+├── let.js
+├── const.js
+└── README.md
+
+🔹 1. var Keyword
+Features
+
+Function scope
+
+Re-declaration allowed
+
+Updating allowed
+
+Example
+var greet = "Hello, welcome to Java programming!";
+
+function displayGreet() {
+    var ankit = "Hello from inside the function!";
+    console.log(ankit);
+}
+
+displayGreet();
+console.log(greet);
+
+var num1 = 50;
+var num1 = 60;   // re-declaration allowed
+var num2 = 70;
+
+var sum = num1 + num2;
+console.log(sum);
+
+Output
+Hello from inside the function!
+Hello, welcome to Java programming!
+130
+
+🔹 2. let Keyword
+Features
+
+Block scope
+
+Re-declaration ❌ not allowed
+
+Updating ✅ allowed
+
+Example
+let name = "Ankit";
+
+function displayId() {
+    let id = 123;
+    console.log(id);
+}
+
+console.log(name);
+displayId();
+
+let p = 15;
+// let p = 12; ❌ error
+
+p = 20; // updating allowed
+console.log(p);
+
+let q = 25;
+let r = p - q;
+console.log(r);
+
+Output
+Ankit
+123
+20
+-5
+
+🔹 3. const Keyword
+Features
+
+Block scope
+
+Re-declaration ❌ not allowed
+
+Updating ❌ not allowed
+
+Value must be assigned at declaration
+
+Example
+const name = "Rahul";
+console.log(name);
+
+const a = 10;
+// a = 15; ❌ error
+
+const b = 20;
+const c = a * b;
+console.log(c);
+
+Output
+Rahul
+200
+
+
 
 
 
