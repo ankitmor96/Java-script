@@ -1,4 +1,4 @@
-=> 1) Intro.Java :-
+         => 1) Intro.Java :-
 
 📘 JavaScript Introduction Project
 📌 Project Description
@@ -85,7 +85,7 @@ After Click: Welcome to JavaScript
 
 Console Output: 50 
 
-=> 2) Variable :-
+        => 2) Variable :-
 
 📘 JavaScript Variables – README
 📌 Project Title
