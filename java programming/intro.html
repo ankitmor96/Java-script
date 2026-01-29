@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- External script file linked here but first code compile to java script and second code compile to html -->
+
+    <script src="./intro.js"></script>
+
+</head>
+<body>
+    <h1 id="title">Hello World</h1>
+    <button id="btn">Click Me</button>
+
+   <!-- internal script file linked here -->
+
+   <script>
+   document.getElementById("btn").addEventListener("click",function(){
+    document.getElementById("title").innerText="Welcome to JavaScript";
+   })
+   </script>
+
+<!-- External script file linked here but first code compile to html and second code compile to java script -->
+
+     <script src="./intro.js"></script>
+       
+</body>
+</html>
