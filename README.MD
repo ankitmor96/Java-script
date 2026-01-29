@@ -30,6 +30,9 @@ document.getElementById("btn").addEventListener("click", function () {
 
 // 2) Variable (var) :-
 
+
+---
+
 ## 📝 Description
 
 The program:
@@ -47,48 +50,7 @@ The program:
 ### 1️⃣ Global Variable
 ```javascript
 var greet = "Hello, welcome to Java programming!";
-Accessible anywhere in the file
 
-2️⃣ Function with Local Scope
-function displayGreet() {
-    var ankit = "Hello from inside the function!";
-    console.log(ankit);
-}
-ankit is function-scoped
-
-Cannot be accessed outside the function
-
-3️⃣ Function Call
-displayGreet();
-Executes the function and prints the local message
-
-4️⃣ Accessing Global Variable
-console.log(greet);
-Prints the global variable value
-
-5️⃣ var Redeclaration Example
-var num1 = 50;
-var num1 = 60; // redeclaration allowed
-var allows redeclaration and updates the value
-
-6️⃣ Addition Operation
-var num2 = 70;
-var sum = num1 + num2;
-
-console.log(sum);
-▶️ How to Run the Program
-Using Node.js
-Open terminal or command prompt
-
-Navigate to the project folder
-
-Run the file:
-
-node var.js
-🖥️ Output
-Hello from inside the function!
-Hello, welcome to Java programming!
-130
 
 
 
