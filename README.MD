@@ -27,6 +27,10 @@ document.getElementById("btn").addEventListener("click", function () {
     document.getElementById("title").innerText = "Welcome to JavaScript";
 });
 
+
+
+
+
 // 2) Variable (var) :-
 
 Perfect 👍
