@@ -1,8 +1,5 @@
  // 1) Intro.java :-
 
-
----
-
 ## 📝 Project Description
 
 - The webpage initially displays **Hello World**
@@ -26,6 +23,43 @@
 document.getElementById("btn").addEventListener("click", function () {
     document.getElementById("title").innerText = "Welcome to JavaScript";
 });
+📄 intro.js
+This file demonstrates:
+
+Variable declaration
+
+Addition of numbers
+
+Console output
+
+var a = 20;
+var b = 30;
+var c = a + b;
+
+console.log(a + b);
+Console Output:
+50
+▶️ How to Run the Project
+Clone or download the repository
+
+Open the project folder
+
+Open index.html in any web browser
+
+Click the Click Me button
+
+Open Developer Tools → Console to see JavaScript output
+
+🎯 Output Preview
+Initial Page:
+
+Hello World
+[Click Me]
+After Button Click:
+
+Welcome to JavaScript
+[Click Me]
+
 
 // 2) Variable (var) :-
 
