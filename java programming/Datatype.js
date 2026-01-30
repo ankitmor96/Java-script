@@ -2,7 +2,7 @@
 
 // _____________________Primitive data type :- like__________________________
 
-       // String---------------
+       // 1) String---------------
 
 let name="Ankit";
 console.log("This is string value:",name);
@@ -15,7 +15,7 @@ console.log("This is string value:",name);
 // var ab ="abcd";
 // console.log("This is string value :",a);
 
-       // Boolean---------------
+       // 2) Boolean---------------
 
 let num = true;  // not a string value
 console.log("This is boolean value:",num);
@@ -28,7 +28,7 @@ console.log("This is boolean value:",num);
 // var y = true;
 // console.log("This is boolean value :",y);
 
-       // Number---------------
+       // 3) Number---------------
 
 const Number=12345;
 console.log("This is number value:",Number);
@@ -41,7 +41,7 @@ console.log("This is number value:",Number);
 //var j=657;
 //console.log("This is number value :",j);
 
-       // undefined---------------
+       // 4) undefined---------------
 
 let a;  // undefined value 
 console.log("This is undefine value:",a);
@@ -54,7 +54,7 @@ console.log("This is undefine value:",a);
 // let user;
 // console.log("This is undefine value :",user);
 
-        // null---------------
+        // 5) null---------------
 
 const n=null;  // but null value type of data is "object"
 console.log("This is null value:",n);
@@ -67,7 +67,7 @@ console.log("This is null value:",n);
 // var reset=null;
 // console.log("This is null value :",reset)
 
-         // Symbol---------------
+         // 6) Symbol---------------
 
 var x=10;  // first value 
 var x=11;  // new value updated
@@ -84,7 +84,7 @@ console.log("This is Symbol value:",x);
 // console.log("This is symbol value :",z);
 
 
-       // BigInt---------------
+       // 7) BigInt---------------
 
 var id=12345678987654321;
 console.log("This is Bigint value:",id);
@@ -100,7 +100,7 @@ console.log("This is Bigint value:",id);
 
 // ____________________Non-Primitive data type :- like_______________________
 
-        // Object---------------
+        // 8) Object---------------
  
 const student = {name:"Ankit" , age:20 , id:12060 };  // key:value defined in datatype 
 console.log("This is object value:",student);
@@ -110,5 +110,6 @@ console.log("This is object value:",student);
 
 // let image={height:20, width:30}
 // console.log("This is object value :",image);
+
 
 
