@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies Ticket</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form id="form">
+
+        <h2>Movie Ticket Calculator</h2>
+
+        <label for="ticketType">Ticket Type:</label>
+        <select id="ticketType">
+            <option value="150">Adult - ₹180</option>
+            <option value="50">Child - ₹60</option>
+            <option value="100">Senior - ₹120</option>
+        </select>
+
+        <label for="ticketQuantity">Number of Tickets:</label>
+        <input type="number" id="ticketQuantity">
+
+        <button type="submit">submit </button>
+
+        <h4 id="result"></h4>
+
+    </form>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
