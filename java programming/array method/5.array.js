@@ -75,3 +75,13 @@ let n = [1,2,3,4,5];
 
 console.log(n.reverse());
 
+// values---------------method :=
+
+
+let numvalue = num.values();
+
+for(let values of numvalue){
+    console.log("values:",values);
+}
+
+
