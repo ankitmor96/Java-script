@@ -28,3 +28,5 @@ q14- https://codepen.io/Ankit-Mor/pen/ByLyEbO
 
 q15- https://codepen.io/Ankit-Mor/pen/azmzxxZ
 
+q16- https://codepen.io/Ankit-Mor/pen/MYjYRdW
+
