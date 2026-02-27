@@ -24,7 +24,7 @@ q12- https://codepen.io/Ankit-Mor/pen/GgjgLzx
 
 q13- https://codepen.io/Ankit-Mor/pen/JoRoVzb
 
-q15- https://codepen.io/Ankit-Mor/pen/ByLyEbO
+q14- https://codepen.io/Ankit-Mor/pen/ByLyEbO
 
-q16- https://codepen.io/Ankit-Mor/pen/azmzxxZ
+q15- https://codepen.io/Ankit-Mor/pen/azmzxxZ
 
