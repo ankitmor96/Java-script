@@ -7,3 +7,5 @@ q3- https://codepen.io/Ankit-Mor/pen/qEaEwKa
 q4- https://codepen.io/Ankit-Mor/pen/xbEbeJV
 
 q5- https://codepen.io/Ankit-Mor/pen/pvEvBZB
+
+q6- https://codepen.io/Ankit-Mor/pen/wBzBZEx
