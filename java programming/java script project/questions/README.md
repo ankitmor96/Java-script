@@ -1,6 +1,6 @@
 q1- https://codepen.io/Ankit-Mor/pen/ogzgGVQ
 
-<img width="1914" height="798" alt="Screenshot 2026-02-27 100023" src="https://github.com/user-attachments/assets/f79237eb-9229-4aef-9331-0ca4fb35f822" />
+<img width="1913" height="940" alt="Screenshot 2026-02-27 094745" src="https://github.com/user-attachments/assets/f823bcd7-3442-41cd-936c-c4241edaab2d" />
 
 
 q2- https://codepen.io/Ankit-Mor/pen/azmzxGv
