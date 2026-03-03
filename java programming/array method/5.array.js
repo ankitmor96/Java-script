@@ -84,4 +84,53 @@ for(let values of numvalue){
     console.log("values:",values);
 }
 
+// find()------------------- method :=
+
+ const variable = [1,2,3,4,5,6,7,8,9];
+
+ const results = variable.find( num => num > 8 );
+
+ console.log("This is find of num:",results);
+
+
+// const numberss = [5, 12, 8, 130, 44];
+
+// const result = numberss.find(num => num > 10);
+
+// console.log(result);
+
+
+// findIndex()----------------------- method :=
+
+let f = [11,12,13,14,15,16,17,18];
+
+let result = f.findIndex(num=>num>13);
+
+console.log("This is findIndex of num:",result);
+
+// const d = [ 404,407,402,400,401];
+
+// const w = d.findIndex(num => num > 400);
+
+// console.log("This is find of index num :",w);
+
+// every------------------------ method :=
+
+let s = [12,13,14,15];
+
+let q = s.every(num => num > 0);
+
+console.log("This is every num:",q);
+
+// let g = [{
+//     name:"anit", age:"20",
+//     name:"rahul", age:"23",
+//     name:"kalpesh", age:"22",
+// }];
+// let c = g.every(x=>x.age===20);
+
+// console.log("This is every method :",c);
+
+
+
 
