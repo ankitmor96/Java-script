@@ -73,7 +73,7 @@ const API_KEY = "your_api_key_here";
 
 📸 Output Preview
 Search bar to enter movie name
-
-github(url):- https://github.com/ankitmor96/Java-script/edit/main/java%20programming/asychronous/10.fetch-API.js/movies%20api/README.md
 Movie posters displayed in grid layout
 Smooth UI like shown in your project screenshot
+
+github(url):- https://github.com/ankitmor96/Java-script/edit/main/java%20programming/asychronous/10.fetch-API.js/movies%20api/README.md
