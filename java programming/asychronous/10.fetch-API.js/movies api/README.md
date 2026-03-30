@@ -1,6 +1,8 @@
 
 <img width="1906" height="925" alt="Screenshot 2026-03-30 144702" src="https://github.com/user-attachments/assets/53d646b5-628e-4b52-a847-147065d9ac93" />
 
+=> java script program :-
+
 document.getElementById("form").addEventListener("submit" , async (e)=>{
  e.preventDefault();
 
