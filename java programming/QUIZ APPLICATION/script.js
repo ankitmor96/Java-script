@@ -152,41 +152,110 @@ function loadQuestion (){
     });
 
     selectedAnswer = "";
+
+    startTimer();
     
 }
 
-optionbtn.forEach((btn)=>{
+
+
+optionbtn.forEach((btn,index)=>{
   btn.addEventListener("click", ()=>{
-    selectedAnswer = btn.innerText;
+    selectedAnswer = index;
+
+    let currntQuestion = quizData[currentIndex];
+
+
+    userAnswer.push({
+      question:currntQuestion.question,
+      selected:index,
+      correct:currntQuestion.answer,
+      options:currntQuestion.options,
+    });
+    nextQuestion();
   });
+  startTimer();
 });
+   loadQuestion();
 
 
-nextBtn.addEventListener("click", () => {
+function startTimer(){
 
-  let currectAnswer = quizData[currentIndex].answer;
+  let timerE1 = document.getElementById("timer");
 
-  if(selectedAnswer === currectAnswer){
+  clearInterval (timer);
+
+  timeLeft = 30;
+
+  timerE1.innerText = `Time Left ${timeLeft}`;
+
+  timer = setInterval(()=>{
+    timeLeft--;
+
+    timerE1.innerText = `Time Left ${timeLeft}`;
+
+    if(timeLeft <= 0){
+      userAnswer.push({
+        question : quizData[currentIndex].question,
+        selected : null,
+        correct : quizData[currentIndex].answer,
+        options : quizData[currentIndex].options
+
+      });
+     nextQuestion();
+    }
+
+  },1000)
+}
+
+function nextQuestion(){
+
+  if(selectedAnswer !== null &&  quizData[currentIndex].options[selectedAnswer] === quizData[currentIndex].answer){
     score++;
   }
-    currentIndex++; 
 
-    if (currentIndex < quizData.length) {
-      selectedAnswer ="";
+    if (currentIndex < quizData.length-1) {
+       currentIndex++; 
+      selectedAnswer =null;
         loadQuestion();
     } else {
-        result.innerText=`Result😒 :${score}/${quizData.length}
-        
-        <h3 class="text-center">Review Summary</h3>
-        
-        <ul class="list-gruop">
+       clearInterval (timer);
+      quizResult(); 
+    } 
+  }
 
-        
+function quizResult(){
+  const quizResultE1 = document.querySelector(".quiz-card");
 
-        </ul>`;
-    }
-});
+  quizResultE1.innerHTML = `
+  <h3 class="text-center">Quiz Result 🎁</h3>
+  <h4 class="text-center">Result:- ${score}/${quizData.length}</h4>
+
+  <div class="mt-3">
+  
+  <h3 class="text-center">Rasult Summary</h3>
+
+  <ul class="list-group">
+  ${userAnswer.map((ans,index)=>`
+    
+    <li class="list-group-item">
+
+    <h5 class="text-center">Question Num :- ${index+1} :- ${ans.question}</h5>
+    <br>
+    <h6 class="text-center">Your Ans :- ${ans.selected !== null ? ans.options[ans.selected] : "not answered"}</h6>
+    <br>
+    <h6 class="text-center">Correct Ans :- ${ans.correct}</h6>
+
+    </li>
+    
+    `).join("")}
+
+  
+  </ul>
+  
+  </div>
+  `;
+}
 
 
-loadQuestion();
 
