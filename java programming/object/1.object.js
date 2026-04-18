@@ -13,7 +13,7 @@ height:5.4,
 
 console.log(person);
 
-// typr of :-
+// type of :-
 
 console.log("type of person:- ",typeof person);
 
