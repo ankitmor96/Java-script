@@ -1,7 +1,7 @@
 let test = " ankit mor ";
 
 // (1) split :- method---------------
-// array ne string ma convert kare che 
+//  string ne array ma convert kare che 
 
 console.log(" split value :-",test.split(" "));
 console.log(" split value :-",test.split(""));
