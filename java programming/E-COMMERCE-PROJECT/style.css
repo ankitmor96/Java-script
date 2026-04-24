@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgba(0, 0, 0, 0.863);
+    color: azure;
+}
+.navbar{
+    border-radius: 5px;
+}
+.p-card img {
+    height: 250px;
+    width: auto;
+}
+.p-card {
+    min-height: 250px;
+    background-color: black;
+    color: azure;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+.p-card:hover{
+    transform: scaleY(1.05);
+}
+.card-title{
+    font-size: 20px;
+}
+.card-text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    caret-color: blue;
+}
+.card-price{
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.card-price:hover{
+    color: yellow;
+} 
+.btn-full:hover{
+  background-color: rgb(16, 59, 15);
+}
+.modal-content{
+ background-color: rgb(190, 218, 15);
+}
+.modal-title{
+    color:black;
+}
+.mb-2{
+    border-radius: 5px;
+}
